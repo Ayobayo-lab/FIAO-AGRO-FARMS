@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIAO AGRO FARMS | Pure Palm Oil & Premium African Food Staples</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,800;1,600&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            red: '#8C1C03',
+                            crimson: '#B83206',
+                            amber: '#D96B00',
+                            gold: '#F5A623',
+                            lightGold: '#FFF3E0',
+                            green: '#2E6B34',
+                            dark: '#1C1614',
+                            cream: '#FFFDF9'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-text {
+            background: linear-gradient(135deg, #8C1C03 0%, #D96B00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-pattern {
+            background-color: #1C1614;
+            background-image: radial-gradient(#D96B00 0.75px, transparent 0.75px), radial-gradient(#D96B00 0.75px, #1C1614 0.75px);
+            background-size: 30px 30px;
+            background-position: 0 0,15px 15px;
+            opacity: 0.95;
+        }
+    </style>
+</head>
+<body class="bg-brand-cream text-brand-dark font-sans antialiased selection:bg-brand-amber selection:text-white">
+
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div class="bg-brand-red text-white text-xs md:text-sm py-2 px-4 text-center font-medium tracking-wide flex justify-between items-center max-w-full overflow-hidden">
+        <div class="container mx-auto flex justify-between items-center px-2">
+            <span><i class="fa-solid fa-certificate text-brand-gold mr-1.5"></i> RC: <strong>8501646</strong> | 100% Unadulterated Pure Banga Palm Oil</span>
+            <span class="hidden md:inline"><i class="fa-solid fa-box-open text-brand-gold mr-1.5"></i> Souvenir Mini Bottles: <strong>120 Pcs / Carton</strong></span>
+            <a href="https://wa.me/2347031360797?text=Hello%20FIAO%20AGRO%20FARMS,%20I%20would%20like%20to%20place%20an%20order." target="_blank" class="bg-brand-amber hover:bg-brand-gold text-white font-bold px-3 py-1 rounded text-xs transition duration-200">
+                <i class="fa-brands fa-whatsapp mr-1"></i> Quick Order
+            </a>
+        </div>
+    </div>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-orange-100 shadow-sm">
+        <div class="container mx-auto px-4 lg:px-8 py-3 flex justify-between items-center">
+            <!-- Brand Logo -->
+            <a href="#" class="flex items-center space-x-3">
+                <div class="w-10 h-10 md:w-12 md:h-12 bg-brand-red rounded-full flex items-center justify-center text-white font-extrabold text-xl shadow-md border-2 border-brand-amber">
+                    E
+                </div>
+                <div>
+                    <span class="block text-lg md:text-xl font-extrabold tracking-tight text-brand-red font-serif leading-none">FIAO AGRO FARMS</span>
+                    <span class="text-[10px] md:text-xs text-brand-amber font-semibold tracking-wider uppercase">Pure Palm Goodness</span>
+                </div>
+            </a>
+
+            <!-- Desktop Links -->
+            <div class="hidden md:flex items-center space-x-8 font-medium text-sm text-gray-700">
+                <a href="#products" class="hover:text-brand-crimson transition">Product Catalog</a>
+                <a href="#souvenirs" class="hover:text-brand-crimson transition">Event Souvenirs</a>
+                <a href="#benefits" class="hover:text-brand-crimson transition">Health Benefits</a>
+                <a href="#wholesale" class="hover:text-brand-crimson transition">Wholesale & Export</a>
+            </div>
+
+            <!-- Header Call to Action -->
+            <div class="flex items-center space-x-3">
+                <a href="tel:+2347031360797" class="hidden sm:flex items-center text-xs font-bold text-gray-700 hover:text-brand-red">
+                    <i class="fa-solid fa-phone text-brand-amber mr-2"></i> +234 703 136 0797
+                </a>
+                <a href="https://wa.me/2347031360797?text=Hello!%20I%20want%20to%20inquire%20about%20your%20Palm%20Oil%20%26%20Souvenir%20packages." target="_blank" class="bg-brand-red hover:bg-brand-crimson text-white px-4 py-2.5 rounded-full font-bold text-xs md:text-sm shadow-md transition transform hover:-translate-y-0.5">
+                    <i class="fa-brands fa-whatsapp mr-1.5 text-base"></i> Order Now
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="relative hero-pattern text-white overflow-hidden py-16 md:py-24">
+        <div class="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-transparent z-0"></div>
+        
+        <div class="container mx-auto px-4 lg:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <!-- Left Copy -->
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                <div class="inline-flex items-center space-x-2 bg-brand-amber/20 border border-brand-amber/50 px-3 py-1.5 rounded-full text-brand-gold text-xs font-bold tracking-wide">
+                    <span class="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
+                    <span>100% Pure Banga Grade • Export Certified</span>
+                </div>
+
+                <h1 class="text-3xl sm:text-4xl md:text-6xl font-serif font-extrabold leading-tight text-white">
+                    From Savory Stews to Crispy Delights, <br class="hidden sm:block">
+                    <span class="text-brand-gold">One Oil Does It All.</span>
+                </h1>
+
+                <p class="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 font-light leading-relaxed">
+                    Experience the rich, authentic heart of traditional West African cooking. Certified, unadulterated red palm oil and premium food staples packaged for households, events, and global export.
+                </p>
+
+                <!-- CTA Button Cluster -->
+                <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                    <a href="https://wa.me/2347031360797?text=Hi,%20I'd%20like%20to%20order%20a%20Carton%20of%20Souvenir%20Mini%20Palm%20Oil%20Bottles%20(120%20pcs)." target="_blank" class="w-full sm:w-auto bg-gradient-to-r from-brand-amber to-brand-gold hover:from-brand-gold hover:to-brand-amber text-brand-dark font-extrabold px-8 py-4 rounded-xl shadow-xl transition transform hover:-translate-y-1 text-center flex items-center justify-center">
+                        <i class="fa-brands fa-whatsapp text-xl mr-2.5"></i> Order Souvenir Carton (120 Pcs)
+                    </a>
+                    <a href="#products" class="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white font-bold px-7 py-4 rounded-xl border border-white/30 backdrop-blur-sm transition text-center">
+                        Explore All Products <i class="fa-solid fa-arrow-down-long ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Features Bullets -->
+                <div class="grid grid-cols-3 gap-4 pt-6 border-t border-white/10 text-xs sm:text-sm text-gray-300">
+                    <div class="flex items-center justify-center lg:justify-start">
+                        <i class="fa-solid fa-shield-halved text-brand-gold mr-2 text-base"></i> Chemical-Free
+                    </div>
+                    <div class="flex items-center justify-center lg:justify-start">
+                        <i class="fa-solid fa-gift text-brand-gold mr-2 text-base"></i> Custom Event Branding
+                    </div>
+                    <div class="flex items-center justify-center lg:justify-start">
+                        <i class="fa-solid fa-plane text-brand-gold mr-2 text-base"></i> Worldwide Export
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Hero Card / Video Feature -->
+            <div class="lg:col-span-5">
+                <div class="bg-gradient-to-b from-brand-red to-brand-dark p-1 rounded-2xl shadow-2xl relative">
+                    <div class="bg-white rounded-xl p-6 text-brand-dark space-y-4">
+                        <div class="flex justify-between items-center border-b pb-3 border-gray-100">
+                            <div>
+                                <span class="text-xs uppercase tracking-widest font-bold text-brand-amber">Best Seller Spec</span>
+                                <h3 class="font-bold text-lg font-serif">Souvenir Mini Oil Bottles</h3>
+                            </div>
+                            <span class="bg-brand-lightGold text-brand-red text-xs font-bold px-2.5 py-1 rounded-full border border-orange-200">
+                                120 Pcs / Carton
+                            </span>
+                        </div>
+
+                        <!-- Card Visual Representation -->
+                        <div class="bg-orange-50 rounded-lg p-4 border border-orange-100 text-center space-y-3">
+                            <div class="w-16 h-16 bg-brand-red rounded-full mx-auto flex items-center justify-center text-white text-2xl shadow-lg">
+                                <i class="fa-solid fa-bottle-droplet"></i>
+                            </div>
+                            <h4 class="font-bold text-brand-red text-sm">Custom Celebrant Branding Included</h4>
+                            <p class="text-xs text-gray-600">
+                                Perfect for Weddings, 70th Birthdays, Burials, Chieftaincy Celebrations & Corporate Souvenirs.
+                            </p>
+                        </div>
+
+                        <!-- Callout box -->
+                        <div class="bg-gray-900 text-white p-3.5 rounded-lg text-xs space-y-1">
+                            <div class="flex items-center text-brand-gold font-bold">
+                                <i class="fa-solid fa-phone-volume mr-2"></i> Direct Order Hotline:
+                            </div>
+                            <div class="text-base font-extrabold tracking-wider text-white">+234 703 136 0797</div>
+                            <div class="text-[10px] text-gray-400">Call or WhatsApp for immediate carton dispatch</div>
+                        </div>
+
+                        <a href="https://wa.me/2347031360797?text=Hi,%20I'm%20interested%20in%20ordering%20cartons%20of%20Souvenir%20Palm%20Oil." target="_blank" class="block w-full text-center bg-brand-green hover:bg-emerald-700 text-white font-bold py-3 rounded-lg shadow transition">
+                            <i class="fa-brands fa-whatsapp mr-1.5"></i> Request Souvenir Quotation
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EVENT SOUVENIR SPECIAL HIGHLIGHT -->
+    <section id="souvenirs" class="py-16 bg-white border-b border-orange-100">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-brand-amber font-bold text-xs uppercase tracking-widest">Custom Branded Events</span>
+                <h2 class="text-3xl md:text-4xl font-serif font-extrabold text-brand-red mt-1">Make Your Guests Remember You</h2>
+                <p class="text-gray-600 text-sm md:text-base mt-2">
+                    We specialize in high-volume, custom-branded souvenirs for high-profile Nigerian and international events.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Mini Bottles Card -->
+                <div class="bg-brand-cream border border-orange-200 rounded-2xl p-6 md:p-8 flex flex-col justify-between shadow-sm hover:shadow-md transition">
+                    <div>
+                        <div class="flex justify-between items-start mb-4">
+                            <div class="w-12 h-12 bg-brand-red/10 text-brand-red rounded-xl flex items-center justify-center text-xl font-bold">
+                                <i class="fa-solid fa-wine-bottle"></i>
+                            </div>
+                            <span class="bg-brand-amber text-white font-extrabold text-xs px-3 py-1 rounded-full uppercase tracking-wider">
+                                Bulk Carton Pack
+                            </span>
+                        </div>
+                        <h3 class="text-2xl font-serif font-bold text-brand-dark mb-2">Souvenir Palm Oil Mini Bottles</h3>
+                        <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                            Compact, leak-proof mini oil bottles sealed with yellow/red caps. Fully customized with your celebrant's picture, event theme, and personal message.
+                        </p>
+                        <ul class="text-xs space-y-2 text-gray-700 font-medium mb-6">
+                            <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2"></i> Standard Wholesale Unit: <strong>120 Pieces in a Carton</strong></li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2"></i> Custom glossy waterproof sticker branding</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2"></i> Zero-leakage tight seal guarantees safety in gift bags</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/2347031360797?text=Hello,%20I%20want%20to%20order%20Souvenir%20Palm%20Oil%20Mini%20Bottles%20(120pcs/carton)." target="_blank" class="w-full text-center bg-brand-red hover:bg-brand-crimson text-white font-bold py-3 rounded-xl transition">
+                        Order Carton of 120 Bottles
+                    </a>
+                </div>
+
+                <!-- Ijebu Garri Pouches Card -->
+                <div class="bg-brand-cream border border-orange-200 rounded-2xl p-6 md:p-8 flex flex-col justify-between shadow-sm hover:shadow-md transition">
+                    <div>
+                        <div class="flex justify-between items-start mb-4">
+                            <div class="w-12 h-12 bg-brand-green/10 text-brand-green rounded-xl flex items-center justify-center text-xl font-bold">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                            <span class="bg-brand-green text-white font-extrabold text-xs px-3 py-1 rounded-full uppercase tracking-wider">
+                                Premium Pouches
+                            </span>
+                        </div>
+                        <h3 class="text-2xl font-serif font-bold text-brand-dark mb-2">Branded Ijebu Garri Pouches</h3>
+                        <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                            Triple-sifted, super-crispy white Ijebu Garri packed in modern, resealable ziplock stand-up pouches.
+                        </p>
+                        <ul class="text-xs space-y-2 text-gray-700 font-medium mb-6">
+                            <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2"></i> Stand-up ziplock bags keep garri crispy & fresh</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2"></i> Custom front label print for celebrations (e.g. 70th Birthday)</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-brand-green mr-2"></i> Available in 1kg, 2kg, and custom souvenir sizes</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/2347031360797?text=Hello,%20I%20want%20to%20order%20Custom%20Branded%20Ijebu%20Garri%20Souvenir%20Pouches." target="_blank" class="w-full text-center bg-brand-green hover:bg-emerald-800 text-white font-bold py-3 rounded-xl transition">
+                        Order Custom Garri Souvenirs
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCT CATALOG -->
+    <section id="products" class="py-16 bg-brand-cream">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-brand-amber font-bold text-xs uppercase tracking-widest">Full Product Range</span>
+                <h2 class="text-3xl md:text-4xl font-serif font-extrabold text-brand-red mt-1">Our Premium Agro Products</h2>
+                <p class="text-gray-600 text-sm md:text-base mt-2">100% natural, hygienic processing with zero additives or artificial coloring.</p>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <!-- Product 1: Heavy Jugs -->
+                <div class="bg-white rounded-xl border border-orange-100 overflow-hidden shadow-sm hover:shadow-lg transition">
+                    <div class="bg-orange-100/50 h-48 flex items-center justify-center relative">
+                        <i class="fa-solid fa-bucket text-6xl text-brand-amber/60"></i>
+                        <span class="absolute top-3 right-3 bg-brand-red text-white text-[10px] font-bold px-2 py-0.5 rounded">Bulk Size</span>
+                    </div>
+                    <div class="p-5 space-y-3">
+                        <h4 class="font-bold text-lg text-brand-dark font-serif">5.5L & 3.5L Heavy Jugs</h4>
+                        <p class="text-xs text-gray-500">HDPE containers with red carrying handles. Ideal for restaurants, caterers, and large households.</p>
+                        <div class="pt-2 border-t border-gray-100 flex items-center justify-between">
+                            <span class="text-xs font-bold text-brand-amber">Banga Grade Oil</span>
+                            <a href="https://wa.me/2347031360797?text=Hi,%20I'd%20like%20to%20order%205.5L%20Palm%20Oil%20Jugs." target="_blank" class="text-xs font-bold text-brand-red hover:underline">Order <i class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2: Retail Bottles -->
+                <div class="bg-white rounded-xl border border-orange-100 overflow-hidden shadow-sm hover:shadow-lg transition">
+                    <div class="bg-orange-100/50 h-48 flex items-center justify-center relative">
+                        <i class="fa-solid fa-bottle-droplet text-6xl text-brand-crimson/60"></i>
+                        <span class="absolute top-3 right-3 bg-brand-green text-white text-[10px] font-bold px-2 py-0.5 rounded">Retail Ready</span>
+                    </div>
+                    <div class="p-5 space-y-3">
+                        <h4 class="font-bold text-lg text-brand-dark font-serif">1.5L, 1L & 75cl Bottles</h4>
+                        <p class="text-xs text-gray-500">Molded PET clear bottles. Perfect for supermarket shelves and daily home cooking.</p>
+                        <div class="pt-2 border-t border-gray-100 flex items-center justify-between">
+                            <span class="text-xs font-bold text-brand-amber">Shrink-Wrapped Packs</span>
+                            <a href="https://wa.me/2347031360797?text=Hi,%20I'd%20like%20to%20order%20Retail%20Bottle%20Packs." target="_blank" class="text-xs font-bold text-brand-red hover:underline">Order <i class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3: Souvenir Mini Bottles -->
+                <div class="bg-white rounded-xl border border-orange-100 overflow-hidden shadow-sm hover:shadow-lg transition">
+                    <div class="bg-orange-100/50 h-48 flex items-center justify-center relative">
+                        <i class="fa-solid fa-gift text-6xl text-brand-gold/80"></i>
+                        <span class="absolute top-3 right-3 bg-brand-amber text-white text-[10px] font-bold px-2 py-0.5 rounded">Carton of 120</span>
+                    </div>
+                    <div class="p-5 space-y-3">
+                        <h4 class="font-bold text-lg text-brand-dark font-serif">Souvenir Mini Oil Bottles</h4>
+                        <p class="text-xs text-gray-500">Custom branded event mini bottles (120 pieces per carton). High-impact event gifts.</p>
+                        <div class="pt-2 border-t border-gray-100 flex items-center justify-between">
+                            <span class="text-xs font-bold text-brand-amber">120 Pcs / Box</span>
+                            <a href="https://wa.me/2347031360797?text=Hi,%20I%20want%20to%20order%20120pcs%20Souvenir%20Cartons." target="_blank" class="text-xs font-bold text-brand-red hover:underline">Order <i class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4: Stand-Up Pouches -->
+                <div class="bg-white rounded-xl border border-orange-100 overflow-hidden shadow-sm hover:shadow-lg transition">
+                    <div class="bg-orange-100/50 h-48 flex items-center justify-center relative">
+                        <i class="fa-solid fa-box text-6xl text-brand-green/60"></i>
+                        <span class="absolute top-3 right-3 bg-gray-800 text-white text-[10px] font-bold px-2 py-0.5 rounded">Pouches</span>
+                    </div>
+                    <div class="p-5 space-y-3">
+                        <h4 class="font-bold text-lg text-brand-dark font-serif">Grains, Beans & Staples</h4>
+                        <p class="text-xs text-gray-500">Hermetic stand-up zipper pouches for Ijebu Garri, beans, and food staples.</p>
+                        <div class="pt-2 border-t border-gray-100 flex items-center justify-between">
+                            <span class="text-xs font-bold text-brand-amber">Export Packaging</span>
+                            <a href="https://wa.me/2347031360797?text=Hi,%20I'm%20interested%20in%20your%20Pouched%20Food%20Staples." target="_blank" class="text-xs font-bold text-brand-red hover:underline">Order <i class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- HEALTH & NUTRITION BENEFITS -->
+    <section id="benefits" class="py-16 bg-white border-y border-orange-100">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-brand-green font-bold text-xs uppercase tracking-widest">100% Pure & Natural</span>
+                <h2 class="text-3xl md:text-4xl font-serif font-extrabold text-brand-dark mt-1">Health & Nutritional Benefits</h2>
+                <p class="text-gray-600 text-sm md:text-base mt-2">Unrefined Banga grade palm oil retains powerful natural bioactive compounds.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Benefit 1 -->
+                <div class="p-6 rounded-xl bg-green-50/50 border border-green-100 space-y-2">
+                    <div class="w-10 h-10 rounded-lg bg-brand-green text-white flex items-center justify-center text-lg font-bold">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <h4 class="font-bold text-brand-dark">Improves Vision</h4>
+                    <p class="text-xs text-gray-600 leading-relaxed">Rich in Alpha & Beta-carotenes (precursors to Vitamin A) essential for eye health.</p>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="p-6 rounded-xl bg-orange-50/50 border border-orange-100 space-y-2">
+                    <div class="w-10 h-10 rounded-lg bg-brand-amber text-white flex items-center justify-center text-lg font-bold">
+                        <i class="fa-solid fa-shield-cat"></i>
+                    </div>
+                    <h4 class="font-bold text-brand-dark">Rich in Antioxidants</h4>
+                    <p class="text-xs text-gray-600 leading-relaxed">Packed with Tocotrienols & Vitamin E compounds that shield cells from oxidative stress.</p>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="p-6 rounded-xl bg-red-50/50 border border-red-100 space-y-2">
+                    <div class="w-10 h-10 rounded-lg bg-brand-red text-white flex items-center justify-center text-lg font-bold">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h4 class="font-bold text-brand-dark">Soft Glowing Skin</h4>
+                    <p class="text-xs text-gray-600 leading-relaxed">Natural lipid nutrients deeply nourish skin tissue and maintain moisture retention.</p>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="p-6 rounded-xl bg-amber-50/50 border border-amber-100 space-y-2">
+                    <div class="w-10 h-10 rounded-lg bg-brand-gold text-brand-dark flex items-center justify-center text-lg font-bold">
+                        <i class="fa-solid fa-seedling"></i>
+                    </div>
+                    <h4 class="font-bold text-brand-dark">Improves Hair Growth</h4>
+                    <p class="text-xs text-gray-600 leading-relaxed">Essential nutrients stimulate scalp circulation and strengthen hair roots.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHOLESALE & EXPORT -->
+    <section id="wholesale" class="py-16 bg-brand-dark text-white relative">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                <div class="lg:col-span-7 space-y-6">
+                    <span class="bg-brand-amber/30 text-brand-gold text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider border border-brand-amber/40">
+                        Distributor & Exporter Hub
+                    </span>
+                    <h2 class="text-3xl md:text-5xl font-serif font-extrabold leading-tight">
+                        Supplying Domestic Retailers & Global Exporters
+                    </h2>
+                    <p class="text-gray-300 text-sm md:text-base font-light leading-relaxed">
+                        We offer wholesale shrink-wrapped bundles for supermarkets, heavy-duty jug shipments for caterers, and export-sealed packaging for international markets in North America, Europe, and Asia.
+                    </p>
+
+                    <div class="space-y-3 pt-2 text-sm text-gray-300">
+                        <div class="flex items-start">
+                            <i class="fa-solid fa-circle-check text-brand-gold mt-1 mr-3"></i>
+                            <span><strong>Shrink-Wrapped Bundles:</strong> 75cl & 1L bottles available in tight multi-packs for retail stacking.</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fa-solid fa-circle-check text-brand-gold mt-1 mr-3"></i>
+                            <span><strong>Custom Souvenir Bulk Orders:</strong> Rapid turnover capacity for 100 to 5,000+ custom-branded souvenir bottles.</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fa-solid fa-circle-check text-brand-gold mt-1 mr-3"></i>
+                            <span><strong>Export Sealed:</strong> Tamper-evident caps and leak-proof neck seals ensuring safety during long-haul transit.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Callout Box -->
+                <div class="lg:col-span-5 bg-gradient-to-br from-brand-red to-brand-crimson p-8 rounded-2xl shadow-xl text-center space-y-6 border border-white/20">
+                    <i class="fa-solid fa-truck-fast text-5xl text-brand-gold"></i>
+                    <h3 class="text-2xl font-serif font-bold text-white">Need Bulk Wholesale or Custom Event Pricing?</h3>
+                    <p class="text-xs text-orange-100 leading-relaxed">
+                        Speak directly with our sales team for instant volume discounts, freight arrangements, and custom souvenir branding schedules.
+                    </p>
+                    <a href="https://wa.me/2347031360797?text=Hello%20FIAO%20AGRO%20FARMS,%20I'd%20like%20to%20request%20a%20Wholesale%20Price%20List." target="_blank" class="block w-full bg-brand-gold hover:bg-yellow-400 text-brand-dark font-extrabold py-4 rounded-xl shadow-lg transition">
+                        <i class="fa-brands fa-whatsapp text-lg mr-2"></i> Request Wholesale Price Sheet
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE WHATSAPP ORDER BUILDER -->
+    <section class="py-16 bg-brand-cream border-t border-orange-100">
+        <div class="container mx-auto px-4 lg:px-8 max-w-4xl">
+            <div class="bg-white rounded-2xl p-6 md:p-10 border border-orange-200 shadow-lg">
+                <div class="text-center mb-8">
+                    <span class="text-brand-amber font-bold text-xs uppercase tracking-widest">Instant Order Generator</span>
+                    <h2 class="text-2xl md:text-3xl font-serif font-extrabold text-brand-red mt-1">Build Your WhatsApp Order</h2>
+                    <p class="text-xs md:text-sm text-gray-500 mt-1">Select your items below to generate a pre-filled WhatsApp order message directly to our team.</p>
+                </div>
+
+                <form id="orderForm" class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <!-- Item 1: Souvenir Carton -->
+                        <div class="p-4 border rounded-xl bg-orange-50/30 flex justify-between items-center">
+                            <div>
+                                <label class="font-bold text-sm block text-brand-dark">Souvenir Mini Oil Bottles</label>
+                                <span class="text-xs text-gray-500">120 Pieces / Carton</span>
+                            </div>
+                            <input type="number" id="qtySouvenir" min="0" value="1" class="w-20 p-2 border rounded-lg text-center font-bold text-brand-red focus:ring-2 focus:ring-brand-amber outline-none">
+                        </div>
+
+                        <!-- Item 2: 5.5L Jug -->
+                        <div class="p-4 border rounded-xl bg-orange-50/30 flex justify-between items-center">
+                            <div>
+                                <label class="font-bold text-sm block text-brand-dark">5.5 Litre Heavy Jugs</label>
+                                <span class="text-xs text-gray-500">Red Handle Container</span>
+                            </div>
+                            <input type="number" id="qtyJug" min="0" value="0" class="w-20 p-2 border rounded-lg text-center font-bold text-brand-red focus:ring-2 focus:ring-brand-amber outline-none">
+                        </div>
+
+                        <!-- Item 3: Retail 1L Bottle Pack -->
+                        <div class="p-4 border rounded-xl bg-orange-50/30 flex justify-between items-center">
+                            <div>
+                                <label class="font-bold text-sm block text-brand-dark">1-Litre Bottle Pack</label>
+                                <span class="text-xs text-gray-500">Shrink-Wrapped Bundle</span>
+                            </div>
+                            <input type="number" id="qtyBottles" min="0" value="0" class="w-20 p-2 border rounded-lg text-center font-bold text-brand-red focus:ring-2 focus:ring-brand-amber outline-none">
+                        </div>
+
+                        <!-- Item 4: Ijebu Garri Pouches -->
+                        <div class="p-4 border rounded-xl bg-orange-50/30 flex justify-between items-center">
+                            <div>
+                                <label class="font-bold text-sm block text-brand-dark">Ijebu Garri Pouches</label>
+                                <span class="text-xs text-gray-500">Custom Souvenir Pack</span>
+                            </div>
+                            <input type="number" id="qtyGarri" min="0" value="0" class="w-20 p-2 border rounded-lg text-center font-bold text-brand-red focus:ring-2 focus:ring-brand-amber outline-none">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-gray-700 uppercase mb-2">Event or Delivery Notes (Optional):</label>
+                        <input type="text" id="eventNotes" placeholder="e.g. Wedding Souvenir for Nov 20th / Delivery to Ikeja" class="w-full p-3 border rounded-xl text-sm focus:ring-2 focus:ring-brand-amber outline-none">
+                    </div>
+
+                    <button type="button" onclick="sendWhatsAppOrder()" class="w-full bg-brand-green hover:bg-emerald-800 text-white font-extrabold py-4 rounded-xl shadow-lg transition text-base flex items-center justify-center">
+                        <i class="fa-brands fa-whatsapp text-2xl mr-2"></i> Send Pre-filled Order to WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-brand-dark text-gray-400 py-12 border-t border-gray-800">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <!-- Brand Info -->
+                <div class="space-y-3">
+                    <div class="flex items-center space-x-2">
+                        <div class="w-8 h-8 bg-brand-red text-white font-bold rounded-full flex items-center justify-center">E</div>
+                        <span class="text-white font-extrabold font-serif text-lg">FIAO AGRO FARMS</span>
+                    </div>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        Pure Palm Goodness for Every Dish. RC: 8501646. Processing & packaging 100% natural West African food staples.
+                    </p>
+                </div>
+
+                <!-- Products -->
+                <div>
+                    <h5 class="text-white font-bold text-xs uppercase tracking-wider mb-3">Products</h5>
+                    <ul class="text-xs space-y-2">
+                        <li><a href="#products" class="hover:text-white">Banga Palm Oil (5.5L & 3.5L)</a></li>
+                        <li><a href="#products" class="hover:text-white">Retail Bottles (1.5L, 1L, 75cl)</a></li>
+                        <li><a href="#souvenirs" class="hover:text-white">Souvenir Mini Oil Bottles (120 Pcs)</a></li>
+                        <li><a href="#souvenirs" class="hover:text-white">Pouched Ijebu Garri</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h5 class="text-white font-bold text-xs uppercase tracking-wider mb-3">Services</h5>
+                    <ul class="text-xs space-y-2">
+                        <li><a href="#souvenirs" class="hover:text-white">Event Branding & Customization</a></li>
+                        <li><a href="#wholesale" class="hover:text-white">Wholesale & Supermarket Supply</a></li>
+                        <li><a href="#wholesale" class="hover:text-white">International Export Trade</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h5 class="text-white font-bold text-xs uppercase tracking-wider mb-3">Direct Contact</h5>
+                    <div class="text-xs space-y-2">
+                        <p class="text-white font-bold"><i class="fa-solid fa-phone text-brand-amber mr-2"></i> +234 703 136 0797</p>
+                        <p><i class="fa-brands fa-whatsapp text-brand-green mr-2"></i> Available on WhatsApp 24/7</p>
+                        <p class="text-[11px] text-gray-500">Lagos, Nigeria • Worldwide Delivery</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-6 text-center text-[11px] text-gray-500">
+                &copy; 2026 FIAO AGRO FARMS (RC: 8501646). All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPT FOR WHATSAPP ORDER GENERATOR -->
+    <script>
+        function sendWhatsAppOrder() {
+            const souvenir = document.getElementById('qtySouvenir').value;
+            const jug = document.getElementById('qtyJug').value;
+            const bottles = document.getElementById('qtyBottles').value;
+            const garri = document.getElementById('qtyGarri').value;
+            const notes = document.getElementById('eventNotes').value;
+
+            let message = "Hello FIAO AGRO FARMS (RC: 8501646)! I would like to place an order:%0A";
+            
+            if(souvenir > 0) message += `- Souvenir Mini Oil Bottles (120pcs/carton): ${souvenir} carton(s)%0A`;
+            if(jug > 0) message += `- 5.5L Heavy Jugs: ${jug} unit(s)%0A`;
+            if(bottles > 0) message += `- 1L Retail Bottle Packs: ${bottles} pack(s)%0A`;
+            if(garri > 0) message += `- Ijebu Garri Pouches: ${garri} pack(s)%0A`;
+            
+            if(notes.trim() !== "") {
+                message += `%0ANotes/Event Details: ${encodeURIComponent(notes)}`;
+            }
+
+            const phone = "2347031360797";
+            const whatsappUrl = `https://wa.me/${phone}?text=${message}`;
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+</body>
+</html>@
